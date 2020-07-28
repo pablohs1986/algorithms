@@ -18,7 +18,7 @@ public class MergeSort {
 
     public static int[] mergeSort(int[] myArray, int lowIndex, int highIndex) {
         if (lowIndex >= highIndex) {
-            System.out.println(" :_ ");
+
             return myArray;
         } else {
             int midPoint = (lowIndex + highIndex) / 2;
@@ -61,27 +61,12 @@ public class MergeSort {
             k++;
         }
         
-//        for (int k = lowIndex; k < highIndex; k++) {
-//            if (arrayL[i] <= arrayR[j]) {
-//                myArray[k] = arrayL[i];
-//                i++;
-//            } else {
-//                myArray[k] = arrayR[j];
-//                j++;
-//            }
-//            k++;
-//        }
-        
-//        int k = lowIndex;
-
-        /* Copy remaining elements of L[] if any */
         while (i < sizeArrayL) {
             myArray[k] = arrayL[i];
             i++;
             k++;
         }
 
-        /* Copy remaining elements of R[] if any */
         while (j < sizeArrayR) {
             myArray[k] = arrayR[j];
             j++;
