@@ -2,7 +2,7 @@
 
 My own repository of the most famous algorithms, all of them implemented in Java.
   - Insertion sort.
-  - Merge sort
+  - Merge sort.
 
 [Under construction]
 
